@@ -1,0 +1,25 @@
+\name{clean}
+\alias{clean}
+\title{Remove Escaped Characters}
+\usage{
+  clean(text.var)
+}
+\arguments{
+  \item{text.var}{The text variable}
+}
+\value{
+  Returns a vector of character strings with escaped
+  characters removed.
+}
+\description{
+  Preprocess data to remove escaped characters
+}
+\examples{
+x <- "I go \\r
+    to the \\tnext line"
+x
+clean(x)
+}
+\keyword{character}
+\keyword{escaped}
+
